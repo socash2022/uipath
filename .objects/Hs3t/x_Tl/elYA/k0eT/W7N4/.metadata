@@ -1,0 +1,14 @@
+﻿{
+  "Id": "W7N4VasQeUSbJwUeVlUefA",
+  "Reference": "I2RJsUmgdUGcs5ZkX1bGJQ/W7N4VasQeUSbJwUeVlUefA",
+  "ParentRef": "I2RJsUmgdUGcs5ZkX1bGJQ/k0eTBHqN7E2bvivJrykwPw",
+  "Name": "Clic el listado de reportes",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-11-07T18:10:38.743165Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-11-07T18:10:38.743165Z"
+}

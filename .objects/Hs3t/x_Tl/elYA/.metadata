@@ -1,0 +1,12 @@
+﻿{
+  "Id": "elYAL5JGG0GQIGrVnDhiHg",
+  "Reference": "I2RJsUmgdUGcs5ZkX1bGJQ/elYAL5JGG0GQIGrVnDhiHg",
+  "ParentRef": "I2RJsUmgdUGcs5ZkX1bGJQ/x_TlV9Jo90iWiriqF3RiWw",
+  "Name": "Chrome: Centro Inteligencia Pricing CDMX - Po",
+  "Type": "Screen",
+  "Created": "2022-11-07T17:54:51.1860358Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-11-07T17:54:51.1860358Z"
+}

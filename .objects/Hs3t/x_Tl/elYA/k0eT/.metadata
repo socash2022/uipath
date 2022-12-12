@@ -1,0 +1,16 @@
+﻿{
+  "Id": "k0eTBHqN7E2bvivJrykwPw",
+  "Reference": "I2RJsUmgdUGcs5ZkX1bGJQ/k0eTBHqN7E2bvivJrykwPw",
+  "ParentRef": "I2RJsUmgdUGcs5ZkX1bGJQ/elYAL5JGG0GQIGrVnDhiHg",
+  "Name": "DIV Pricing",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-11-07T17:54:51.3405296Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-11-07T17:55:50.9995386Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

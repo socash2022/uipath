@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Hs3tls4O2EOIHulAiHpQvg",
+  "Reference": "I2RJsUmgdUGcs5ZkX1bGJQ/Hs3tls4O2EOIHulAiHpQvg",
+  "Name": "Power BI",
+  "Type": "App",
+  "Created": "2022-11-07T17:54:51.0745211Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-11-07T17:55:16.0633756Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

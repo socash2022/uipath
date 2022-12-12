@@ -1,0 +1,8 @@
+Sender: "gilberto.luevano@ayfconsultores.mx"
+Recipents: "gilberto.luevano@ayfconsultores.mx;gustavo.nunez@ayfconsultores.mx"
+subject: "RPA Dashboard HDI, correo inicio/fin"
+Body: "El RPA Dashboard HDI, comienza/finaliza su ejecución " + Now.ToString
+Adjuntos:
+adjuntoPrincing
+adjuntoMapCenter
+

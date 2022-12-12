@@ -1,0 +1,10 @@
+430003386@hdi.com.mx
+IkerPato13+
+PatoIker13+
+
+https://app.powerbi.com
+https://app.powerbi.com/groups/53653772-3c5a-4ed2-b076-cc5cbfd2c461/reports/8f4c2a98-7658-4008-b5ce-f23eb75cf15c
+https://app.powerbi.com/reportEmbed?reportId=8f4c2a98-7658-4008-b5ce-f23eb75cf15c&autoAuth=true&ctid=4bcf16f1-8ab4-42fc-85aa-3497292d5021
+
+
+\\10.25.1.205\seguros\PublicImages\Procesos\PantallaMapCenter
