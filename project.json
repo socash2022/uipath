@@ -1,7 +1,7 @@
 {
-  "name": "Dashboards HDI",
-  "description": "Bot que renderize y muestre las imagenes a través de un bucket en las pantallas",
-  "main": "Main_.xaml",
+  "name": "073_Dashboards Pricing y Map Center",
+  "description": "RPA para la descarga de dashboards para las areas de Pricing y Map Center.",
+  "main": "Main.xaml",
   "dependencies": {
     "Microsoft.Omex.Extensions.Activities": "[20.0.5]",
     "Microsoft.ProgramSynthesis.Split.Text": "[8.15.0]",
@@ -12,7 +12,7 @@
     "System.IO.Compression.ZipFile": "[4.3.0]",
     "UiPath": "[22.10.46.47635]",
     "UiPath.Credentials.Activities": "[2.0.0]",
-    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.18.1]",
     "UiPath.Python.Activities": "[1.6.0]",
     "UiPath.System.Activities": "[22.10.3]",
@@ -23,8 +23,8 @@
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.1",
+  "studioVersion": "19.10.1.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -39,7 +39,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
+    "mustRestoreAllDependencies": false,
     "pipType": "ChildSession"
   },
   "designOptions": {
@@ -53,13 +53,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main_.xaml",
-      "uniqueId": "dcc45f20-5617-41e5-abbb-3122080120d9",
+      "filePath": "Main.xaml",
+      "uniqueId": "801bd457-8a1b-473f-94f1-be88f1847ccc",
       "input": [],
       "output": []
     }

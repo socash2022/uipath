@@ -1,0 +1,78 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="inBody" Type="InArgument(x:String)" />
+    <x:Property Name="inHeader" Type="InArgument(x:String)" />
+    <x:Property Name="inName" Type="InArgument(x:String)" />
+    <x:Property Name="outMessageEmail" Type="OutArgument(x:String)" />
+    <x:Property Name="inArea" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>324,212</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[outMessageEmail]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String" xml:space="preserve">[String.Format("&lt;table width='600' border='0' align='center' cellpadding='3' cellspacing='0'&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td colspan='2' align='center'&gt;&lt;br&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align='center'&gt; &lt;span style='font-family: Helvetica, Arial, sans-serif, serif, EmojiFont; font-size: 17px; font-weight: bold; color: rgb(61, 61, 61); text-align: center;'&gt; Servicio de Notificación Automático &lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan='2' align='justify' style='border-top:#009C33 solid medium'&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan='2' align='justify'&gt; &lt;span style='font-family: Helvetica, Arial, sans-serif, serif, EmojiFont; font-size: 14px; color: rgb(45, 45, 45); text-align: justify !important; '&gt; {0} &lt;br&gt;&lt;br&gt; {1} &lt;br&gt;&lt;br&gt;Saludos.&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan='2' align='justify'&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;br&gt;&lt;br&gt; &lt;table border='0' cellpadding='0'&gt;  &lt;tbody&gt; &lt;tr style='height:97.5pt;'&gt;  &lt;td style='height:97.5pt;padding:0.75pt;'&gt;  &lt;p align='center' style='font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif, serif, EmojiFont; text-align: center; margin-right: 0px; margin-left: 0px;'&gt;  &lt;b&gt; &lt;span style='color: rgb(121, 121, 121); font-size: 10pt; font-family: Arial, sans-serif, serif, EmojiFont;'&gt; &lt;img data-imagetype='External' src='http://publicimages.hdi.com.mx/Mail/Logo_hdi.jpg' border='0' alt='HDI Seguros' id='_x0000_i1026'&gt; &lt;/span&gt; &lt;/b&gt; &lt;/p&gt;  &lt;/td&gt;  &lt;td style='background-color:#009C33;width:2.25pt;height:97.5pt;padding:0.75pt;'&gt;&lt;/td&gt;  &lt;td style='width:7.5pt;height:97.5pt;padding:0.75pt;'&gt;&lt;/td&gt; &lt;td style='height:97.5pt;padding:0.75pt;'&gt;  &lt;p style='font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif, serif, EmojiFont; margin: 0px;'&gt; &lt;b&gt; &lt;span style='color: rgb(0, 156, 51); font-size: 11.5pt; font-family: Arial, sans-serif, serif, EmojiFont;'&gt;{2}&lt;/span&gt; &lt;/b&gt; &lt;b&gt; &lt;span style='color: rgb(121, 121, 121); font-size: 10pt; font-family: Arial, sans-serif, serif, EmojiFont;'&gt;&lt;br&gt;&lt;/span&gt; &lt;/b&gt; &lt;b&gt; &lt;span style='color: rgb(68, 68, 68); font-size: 8pt; font-family: Arial, sans-serif, serif, EmojiFont;'&gt;{3}.&lt;/span&gt; &lt;/b&gt; &lt;b&gt; &lt;span style='color: rgb(121, 121, 121); font-size: 10pt; font-family: Arial, sans-serif, serif, EmojiFont;'&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt; &lt;/b&gt; &lt;/p&gt; &lt;/td&gt;  &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;",  inHeader, inBody, inName, inArea)]</InArgument>
+      </Assign.Value>
+    </Assign>
+  </Sequence>
+</Activity>
